@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>CARRUCEL</title>
+    <title>Repaso</title>
   </head>
   <body>
-
-
-    <div class="jumbotron">
+    <h1>Bienvenidos</h1>
+	
+	 <div class="jumbotron">
   <h1 class="display-4">Bienvenidos</h1>
   <p class="lead">El Carrucel es  un metodo  muy  breve de  ver las fotos en un sentido  animado  y muy llamativo .</p>
   <hr class="my-4">
@@ -35,32 +35,36 @@
 <button type="button" class="btn btn-link">Link</button>
 
 
-   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+ <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://www.fcbarcelonanoticias.com/img2/2019/02/dudas-fc-barcelona-279722.jpg" alt="First slide">
+      <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/02/08/15496308998513_310x174.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74gMwzkvg8Z0vCO3q-XigPGb8q6AJuUh5BaKsO0U9jD82GeWV" alt="Second slide">
+      <img src="https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2019/02/06/Recortada/20190206-636850920861246716_20190206232437630-kYRC-U46269571082VDG-992x558@LaVanguardia-Web.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvBKKjUt9bDWuzuTZGq3mkEDyHAkscSHvEwD03vIQTHAfiCDZdMA" alt="Third slide">
+      <img src=" https://estaticos.sport.es/resources/jpg/4/0/1538070139904.jpg" class="d-block w-100" alt="...">
     </div>
+	    <div class="carousel-item">
+      <img src=" https://img.depor.com/files/ec_article_multimedia_gallery/uploads/2019/02/06/5c5b4d00ca0f5.jpeg" class="d-block w-100" alt="...">
+    </div>
+	
+	    <div class="carousel-item">
+      <img src=" https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/zrpo8d6jo3ssc0zipl37/bal%C3%B3n-de-f%C3%BAtbol-fc-barcelona-prestige-lkTPYNgD.jpg" class="d-block w-100" alt="...">
+    </div>
+	
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
@@ -126,6 +130,16 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-    
+	
+	
+	
+	
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>
